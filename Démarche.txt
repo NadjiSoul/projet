@@ -1,0 +1,14 @@
+1. Découpage de la maquette en plusieurs 6 block (donc menu exclu)
+	Partie HTML : 
+2. Apparaitre notre menu ainsi que les 6 blocks.
+Concernant notre menu je l'ai diviser en deux liste afin de pouvoir y placer une bordure coloré (Je verrais par la suite si je devrais faire 2 parties distinctes superposé ou non).
+3. Ajouter les balises <p> afin de rendre plus lisible (en sachant que par défaut <p> ajoute une hauteur de ligne)
+4. Inserer des images.
+5. Chaque session possède une div principal et donc une id. A l'interieur on aura donc des class pour des modifications "ciblés"
+	Partie CSS :
+6. Réduire la taille des blocs, 
+6. réduire la taille des images
+7. colorer le background si besoin
+8. mettre la list en horizontal.
+9.
+
