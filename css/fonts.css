@@ -1,0 +1,68 @@
+/*///////////////////FONT-FACE//////////////////*/
+
+
+
+/*/////////ENCORE SANS//////////*/
+@font-face {
+font-family: 'IT Encore Sans Book Regular';
+font-style: normal;
+font-weight: normal;
+src: local('IT Encore Sans Book Regular'), url('../fonts/IT Encore Sans Book.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'IT Encore Sans Light Regular';
+font-style: normal;
+font-weight: normal;
+src: local('IT Encore Sans Light Regular'), url('../fonts/IT Encore Sans Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'IT Encore Sans Black Regular';
+font-style: normal;
+font-weight: normal;
+src: local('IT Encore Sans Black Regular'), url('../fonts/IT Encore Sans Black.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'IT Encore Sans Bold Regular';
+font-style: normal;
+font-weight: normal;
+src: local('IT Encore Sans Bold Regular'), url('../fonts/IT Encore Sans Bold.woff') format('woff');
+}
+
+/*///////////GEORGIA/////////*/
+
+@font-face {
+font-family: 'Georgia Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Georgia Regular'), url('../fonts/georgia.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Georgia Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Georgia Italic'), url('../fonts/georgiai.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Georgia Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Georgia Bold'), url('../fonts/georgiab.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Georgia Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Georgia Bold Italic'), url('../fonts/georgiaz.woff') format('woff');
+}
