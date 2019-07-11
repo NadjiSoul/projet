@@ -15,8 +15,9 @@ div#all{
 /* MENU */
 
 #nav1{
-	border-bottom: 2px solid grey;
-	padding: 1%;
+	padding: 1% 0;
+	width:80%;
+	margin-left:10%;
 }
 	.nav1-1, .nav1-2{
 		float:right;
@@ -27,19 +28,31 @@ div#all{
 	}
 	.nav1-1{
 		border: rgba(140, 93, 255, 1) 1px solid;
-		margin-right: 10%;
 	}
+		.nav1-1:hover{
+			color:white;
+			background-color:rgba(140, 93, 255, 1);
+		}
+		.nav1-2:hover{
+			color: purple;
+		}
 #nav2{
-	box-shadow: 0px 2px 4px grey;
+
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 2px 13px 24px -20px rgba(0,0,0,0.75);
 	padding: 1.5%;
 }
 	.nav2-1{
 		display: inline-block;
+		padding: 0 20px;
 	}
 		.nav2-1 a{	
 			text-decoration: none;
 			color: grey;
 		}
+			.nav2-1 a:hover{
+				color:black;
+			}
 
 /* SECTION 1 */
 
@@ -56,18 +69,16 @@ div#section1{
 	}
 	#follow1-1{
 		float:left;
+		padding: 0 15px;
 	}
 /* SECTION 2 */
 
 div#section2 img{
 	width: 100%;
 }
-figcaption{
-	text-align: center;
-}
 /* SECTION 3 */
 div#section3{
-	width: 23%;
+	width: 15%;
 	float: left;
 	margin-top: 5%;
 }
@@ -81,8 +92,8 @@ div#section3{
 	}
 /* SECTION 4 */
 div#section4{
-	width: 50%;
-	margin: 5% 0% 0% 25%;
+	width: 60%;
+	margin: 5% 0% 0% 20%;
 	border-bottom: 2px solid grey;
 
 }
@@ -99,8 +110,8 @@ div#section4{
 /* SECTION 5 */
 div#section5{
 	margin-top: 2%;
-	margin-left: 25%;
-	width: 50%;
+	margin-left: 20%;
+	width: 60%;
 }
 #follow2{
 	width: 50%;
@@ -109,21 +120,75 @@ div#section5{
 	#follow2 img{
 		width: 48px;
 		height: 48px;
-		border-radius: 50%;
 		float:left;
 	}
 	#follow2-1{
 		float:left;
-		width: 60%;
-		border: red 2px solid;
+		width: 58%;
+		border-radius: 4px;
+		padding: 0 2%;
 	}
 /* SECTION 6 */
-div#section6{
-}
-/* MOT CLE */
 
+div#section6{
+	width: 80%;
+	margin-left: 10%;
+}
 footer{
 	margin-top: 12%;
 	background-color: grey;
-	min-height: 50%;
+	padding-bottom: 10%;
 }
+	.foot1{
+		width: 33%;
+		float:left;
+	}
+	.foot2{
+		width: 33%;
+		display: inline-block;
+		margin-left: 0.5%;
+		padding-bottom: 3.335%;
+	}
+	.foot3{
+		width: 33%;
+		float: right;
+		border-radius: 4px;
+	}
+
+		.foot1, .foot2, .foot3 {
+		border-radius: 4px;
+		overflow: hidden;
+		margin-top: 2%;
+		background-color: white;
+		}
+		.foot1, .foot3{
+			padding-bottom: 5%;
+		}
+		.foot1 img, .foot2 img, .foot3 img{
+		width: 100%;
+		}
+figcaption{
+	padding: 0 20px;
+}
+
+	
+
+
+
+
+button{
+  	color: rgba(140, 93, 255, 1);
+  	background-color: white;
+
+  	padding: 5px 9px;
+  	border: rgba(140, 93, 255, 1) 1px solid;
+ 	border-radius: 4px;
+  	cursor: pointer;
+}
+	button:hover{
+		background-color: rgba(140, 93, 255, 1);
+		color: white;
+	}
+	#button{
+		padding: 8px 15px;
+	}
