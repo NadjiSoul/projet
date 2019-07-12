@@ -12,6 +12,9 @@ div#all{
 	margin: 5% 0% 1% 10%;
 }
 
+h1{
+	font-family: 'EB Garamond', serif;
+}
 /* MENU */
 
 #nav1{
@@ -49,6 +52,7 @@ div#all{
 		.nav2-1 a{	
 			text-decoration: none;
 			color: grey;
+			font-family: Ubuntu, sans-serif;
 		}
 			.nav2-1 a:hover{
 				color:black;
