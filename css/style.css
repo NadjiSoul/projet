@@ -27,6 +27,10 @@ p{
 }
 /* MENU */
 
+nav img{
+	margin: 0.5% 4% 0% 10%;
+	float:left;
+}
 #nav1{
 	padding: 1% 0;
 	width:80%;
@@ -223,9 +227,7 @@ div#section6{
 			}
 
 
-
-
-
+/* BUTTON */
 button{
   	color: rgba(140, 93, 255, 1);
   	background-color: white;
